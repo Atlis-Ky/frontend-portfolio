@@ -47,7 +47,7 @@
 
 .project-button:hover {
   transform: translateY(-2px);
-  background-color: var(--background-tertiary);
+  color: var(--main-text-dark);
 }
 
 /* Section-specific colors using alt palette */
@@ -60,6 +60,7 @@
 }
 
 .dev-resources .project-button:hover {
+  background-color: var(--alt-one);
   border-color: var(--alt-one);
   box-shadow: 0 4px 12px rgba(239, 99, 81, 0.2);
 }
@@ -73,6 +74,7 @@
 }
 
 .personal-portfolio .project-button:hover {
+  background-color: var(--alt-two);
   border-color: var(--alt-two);
   box-shadow: 0 4px 12px rgba(242, 118, 107, 0.2);
 }
@@ -86,6 +88,7 @@
 }
 
 .coding-music .project-button:hover {
+  background-color: var(--alt-three);
   border-color: var(--alt-three);
   box-shadow: 0 4px 12px rgba(247, 163, 153, 0.2);
 }
@@ -99,6 +102,7 @@
 }
 
 .misc-webclones .project-button:hover {
+  background-color: var(--alt-four);
   border-color: var(--alt-four);
   box-shadow: 0 4px 12px rgba(251, 195, 188, 0.2);
 }
@@ -112,6 +116,7 @@
 }
 
 .contact .project-button:hover {
+  background-color: var(--alt-five);
   border-color: var(--alt-five);
   box-shadow: 0 4px 12px rgba(255, 227, 224, 0.2);
 }

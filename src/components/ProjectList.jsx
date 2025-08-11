@@ -13,7 +13,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            VSCODE SHORTCUTS
+            VSCODE SHORTCUTS CHEATSHEET
           </a>
           <a
             href="#"
@@ -21,7 +21,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            PALETTE THEME TOOL
+            Thematic Palette Picker Tool
           </a>
           <a
             href="#"
@@ -36,7 +36,7 @@ function ProjectList() {
 
       {/* PERSONAL PORTFOLIO Section */}
       <section className="project-section personal-portfolio">
-        <h2 className="section-title">PERSONAL PORTFOLIO</h2>
+        <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
         <div className="button-grid">
           <a
             href="#"
@@ -52,7 +52,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            STANDARD RESUME CV
+            Current CV / Resume
           </a>
         </div>
       </section>
@@ -67,7 +67,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            THIS IS ATLIS (SPOTIFY)
+            Atlis
           </a>
           <a
             href="#"
