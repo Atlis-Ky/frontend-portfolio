@@ -1,13 +1,13 @@
-/* ContextCard.css - Using Palettes.css colors */
+/* Header.css - Using Palettes.css colors */
 
-.context-card {
+.header {
   position: relative;
   padding-bottom: 1rem;
   margin-bottom: 2rem;
 }
 
 /* Full width border using pseudo-element */
-.context-card::after {
+.header::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -19,7 +19,7 @@
 }
 
 /* Basic styling to match previous look */
-.context-card h1 {
+.header h1 {
   font-family: "Special Gothic Expanded One", Arial, sans-serif;
   font-size: 1.875rem;
   font-weight: 600;
