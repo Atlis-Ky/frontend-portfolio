@@ -1,0 +1,45 @@
+:root {
+  /* PALETTE - MAIN */
+
+  --main-accent: #f2766b;
+  --main-secondary: #586166;
+  --main-tertiary: #ecc5c1;
+  --main-dark: #081b26;
+  --main-text-dark: #222;
+  --main-text-light: #f7f7f7;
+
+  /* PALETTE - ALTERNATES */
+  --alt-one: #ef6351;
+  --alt-two: #f2766b;
+  --alt-three: #f7a399;
+  --alt-four: #fbc3bc;
+  --alt-five: #ffe3e0;
+
+  /* Background Colors */
+  --background-primary: var(--main-dark);
+  --background-secondary: #0a1f2e;
+  --background-tertiary: #0e2635;
+  --background-accent: #112c3d;
+  --background-muted: #0c2330;
+
+  /* border */
+
+  --border-radius: 12px;
+}
+
+/* Basic body styling */
+body {
+  background: var(--background-primary);
+  color: var(--main-text-light);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container utility */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
