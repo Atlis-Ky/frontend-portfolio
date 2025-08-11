@@ -1,0 +1,141 @@
+/* ProjectList.css - Project sections with different button layouts */
+
+.project-list {
+  margin-top: 2rem;
+}
+
+.project-section {
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: var(--main-text-light);
+}
+
+.button-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr; /* Mobile: 1 button per row */
+}
+
+.project-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1.5rem;
+  background-color: var(--background-secondary);
+  color: var(--main-text-light);
+  border: 2px solid;
+  border-radius: var(--border-radius);
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-height: 60px;
+}
+
+.project-button:hover {
+  transform: translateY(-2px);
+  background-color: var(--background-tertiary);
+}
+
+/* Section-specific colors using alt palette */
+.dev-resources .section-title {
+  color: var(--alt-one);
+}
+
+.dev-resources .project-button {
+  border-color: var(--alt-one);
+}
+
+.dev-resources .project-button:hover {
+  border-color: var(--alt-one);
+  box-shadow: 0 4px 12px rgba(239, 99, 81, 0.2);
+}
+
+.personal-portfolio .section-title {
+  color: var(--alt-two);
+}
+
+.personal-portfolio .project-button {
+  border-color: var(--alt-two);
+}
+
+.personal-portfolio .project-button:hover {
+  border-color: var(--alt-two);
+  box-shadow: 0 4px 12px rgba(242, 118, 107, 0.2);
+}
+
+.coding-music .section-title {
+  color: var(--alt-three);
+}
+
+.coding-music .project-button {
+  border-color: var(--alt-three);
+}
+
+.coding-music .project-button:hover {
+  border-color: var(--alt-three);
+  box-shadow: 0 4px 12px rgba(247, 163, 153, 0.2);
+}
+
+.misc-webclones .section-title {
+  color: var(--alt-four);
+}
+
+.misc-webclones .project-button {
+  border-color: var(--alt-four);
+}
+
+.misc-webclones .project-button:hover {
+  border-color: var(--alt-four);
+  box-shadow: 0 4px 12px rgba(251, 195, 188, 0.2);
+}
+
+.contact .section-title {
+  color: var(--alt-five);
+}
+
+.contact .project-button {
+  border-color: var(--alt-five);
+}
+
+.contact .project-button:hover {
+  border-color: var(--alt-five);
+  box-shadow: 0 4px 12px rgba(255, 227, 224, 0.2);
+}
+
+/* Tablet and up: Different layouts per section */
+@media (min-width: 768px) {
+  /* MISC & WEBCLONES: 2 buttons per row */
+  .misc-webclones .button-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* CONTACT: 3 buttons per row */
+  .contact .button-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Large screens: Better spacing */
+@media (min-width: 1024px) {
+  .project-list {
+    margin-top: 3rem;
+  }
+
+  .project-section {
+    margin-bottom: 4rem;
+  }
+}
