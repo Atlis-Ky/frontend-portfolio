@@ -17,7 +17,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            Current CV / Resume
+           Kyle Smith CV / Resume
           </a>
           <a
             href="https://atlis-portfolio.vercel.app/"
