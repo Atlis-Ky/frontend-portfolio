@@ -6,15 +6,11 @@ function ProjectList() {
       {/* PERSONAL PORTFOLIO Section */}
       <section className="project-section personal-portfolio">
         <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
+        <h4 className="section-subtitle">
+          For a more detailed look at what I do, my skills, and the technologies
+          I use, check my CV or my Dual development/production site
+        </h4>
         <div className="button-grid">
-          <a
-            href="https://atlis-portfolio.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            ATLIS WEBSITE
-          </a>
           <a
             href="https://standardresume.co/r/deuFz-PeFdit0VJZ3rQ1Q"
             target="_blank"
@@ -22,6 +18,14 @@ function ProjectList() {
             className="project-button"
           >
             Current CV / Resume
+          </a>
+          <a
+            href="https://atlis-portfolio.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            ATLIS WEBSITE
           </a>
         </div>
       </section>
@@ -53,37 +57,6 @@ function ProjectList() {
             className="project-button"
           >
             CYBER.CSS
-          </a>
-        </div>
-      </section>
-
-      {/* CODING MUSIC Section */}
-      <section className="project-section coding-music">
-        <h2 className="section-title">CODING MUSIC</h2>
-        <div className="button-grid">
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            Atlis
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            THE VSCODE TEMPLE (SPOTIFY)
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            FANTASY PLAYLIST (YOUTUBE)
           </a>
         </div>
       </section>
@@ -123,6 +96,37 @@ function ProjectList() {
             className="project-button"
           >
             AMAZON W/ BASKET
+          </a>
+        </div>
+      </section>
+
+      {/* CODING MUSIC Section */}
+      <section className="project-section coding-music">
+        <h2 className="section-title">CODING MUSIC</h2>
+        <div className="button-grid">
+          <a
+            href="#"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            Atlis
+          </a>
+          <a
+            href="https://open.spotify.com/playlist/2HOAMKK6EifQ86uAL1SD9p?si=d55458e826db4ee8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            THE VSCODE TEMPLE (SPOTIFY)
+          </a>
+          <a
+            href="https://youtube.com/playlist?list=PLjPEzfN0Dw2hD3zl9m1URBkqu1QH4CW8G&si=u8MuiogdMXD__pKF"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            FANTASY PLAYLIST (YOUTUBE)
           </a>
         </div>
       </section>

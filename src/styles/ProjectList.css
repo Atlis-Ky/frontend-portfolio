@@ -14,9 +14,17 @@
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   text-align: center;
   color: var(--main-text-light);
+}
+
+.section-subtitle {
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 1rem;
+  color: var(--main-text-light);
+  text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 .button-grid {
@@ -81,37 +89,36 @@
     0 0 16px rgba(242, 118, 107, 0.3);
 }
 
-
 .coding-music .section-title {
-  color: var(--alt-four);
-}
-
-.coding-music .project-button {
-  border-color: var(--alt-four);
-  box-shadow: 0 0 8px rgba(251, 195, 188, 0.3);
-}
-
-.coding-music .project-button:hover {
-  background-color: var(--alt-four);
-  border-color: var(--alt-four);
-  box-shadow: 0 4px 12px rgba(251, 195, 188, 0.4),
-    0 0 16px rgba(251, 195, 188, 0.3);
-}
-
-.misc-webclones .section-title {
   color: var(--alt-five);
 }
 
-.misc-webclones .project-button {
+.coding-music .project-button {
   border-color: var(--alt-five);
   box-shadow: 0 0 8px rgba(255, 227, 224, 0.3);
 }
 
-.misc-webclones .project-button:hover {
+.coding-music .project-button:hover {
   background-color: var(--alt-five);
   border-color: var(--alt-five);
   box-shadow: 0 4px 12px rgba(255, 227, 224, 0.4),
     0 0 16px rgba(255, 227, 224, 0.3);
+}
+
+.misc-webclones .section-title {
+  color: var(--alt-four);
+}
+
+.misc-webclones .project-button {
+  border-color: var(--alt-four);
+  box-shadow: 0 0 8px rgba(251, 195, 188, 0.3);
+}
+
+.misc-webclones .project-button:hover {
+  background-color: var(--alt-four);
+  border-color: var(--alt-four);
+  box-shadow: 0 4px 12px rgba(251, 195, 188, 0.4),
+    0 0 16px rgba(251, 195, 188, 0.3);
 }
 
 .contact .section-title {
@@ -128,48 +135,6 @@
   border-color: var(--main-text-light);
   box-shadow: 0 4px 12px rgba(247, 247, 247, 0.3),
     0 0 16px rgba(247, 247, 247, 0.2);
-}
-
-.coding-music .section-title {
-  color: var(--alt-four);
-}
-
-.coding-music .project-button {
-  border-color: var(--alt-four);
-}
-
-.coding-music .project-button:hover {
-  background-color: var(--alt-four);
-  border-color: var(--alt-four);
-  box-shadow: 0 4px 12px rgba(251, 195, 188, 0.2);
-}
-
-.misc-webclones .section-title {
-  color: var(--alt-five);
-}
-
-.misc-webclones .project-button {
-  border-color: var(--alt-five);
-}
-
-.misc-webclones .project-button:hover {
-  background-color: var(--alt-five);
-  border-color: var(--alt-five);
-  box-shadow: 0 4px 12px rgba(255, 227, 224, 0.2);
-}
-
-.contact .section-title {
-  color: var(--main-text-light);
-}
-
-.contact .project-button {
-  border-color: var(--main-text-light);
-}
-
-.contact .project-button:hover {
-  background-color: var(--main-text-light);
-  border-color: var(--main-text-light);
-  box-shadow: 0 4px 12px rgba(247, 247, 247, 0.2);
 }
 
 /* Tablet and up: Different layouts per section */
