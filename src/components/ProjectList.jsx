@@ -7,8 +7,8 @@ function ProjectList() {
       <section className="project-section personal-portfolio">
         <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
         <h4 className="section-subtitle">
-          For a more detailed look at what I do, my skills, and the technologies
-          I use, check my CV or my Dual development/production site
+          For a more detailed look at my background, skills, and the technologies
+          I use, check my CV or my dual purpose frontend/audio site
         </h4>
         <div className="button-grid">
           <a
