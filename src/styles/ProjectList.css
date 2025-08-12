@@ -50,34 +50,84 @@
   color: var(--main-text-dark);
 }
 
-
-
-.dev-resources .section-title {
+.personal-portfolio .section-title {
   color: var(--alt-two);
 }
 
-.dev-resources .project-button {
-  border-color: var(--alt-two);
-}
-
-.dev-resources .project-button:hover {
-  background-color: var(--alt-two);
-  border-color: var(--alt-two);
-  box-shadow: 0 4px 12px rgba(242, 118, 107, 0.2);
-}
-
-.personal-portfolio .section-title {
-  color: var(--alt-three);
-}
-
 .personal-portfolio .project-button {
-  border-color: var(--alt-three);
+  border-color: var(--alt-two);
 }
 
 .personal-portfolio .project-button:hover {
+  background-color: var(--alt-two);
+  border-color: var(--alt-two);
+  box-shadow: 0 4px 12px rgba(247, 163, 153, 0.2);
+}
+
+/* Section-specific colors using updated palette */
+.dev-resources .section-title {
+  color: var(--alt-three);
+}
+
+.dev-resources .project-button {
+  border-color: var(--alt-three);
+  box-shadow: 0 0 8px rgba(242, 118, 107, 0.3);
+}
+
+.dev-resources .project-button:hover {
   background-color: var(--alt-three);
   border-color: var(--alt-three);
-  box-shadow: 0 4px 12px rgba(247, 163, 153, 0.2);
+  box-shadow: 0 4px 12px rgba(242, 118, 107, 0.4),
+    0 0 16px rgba(242, 118, 107, 0.3);
+}
+
+
+.coding-music .section-title {
+  color: var(--alt-four);
+}
+
+.coding-music .project-button {
+  border-color: var(--alt-four);
+  box-shadow: 0 0 8px rgba(251, 195, 188, 0.3);
+}
+
+.coding-music .project-button:hover {
+  background-color: var(--alt-four);
+  border-color: var(--alt-four);
+  box-shadow: 0 4px 12px rgba(251, 195, 188, 0.4),
+    0 0 16px rgba(251, 195, 188, 0.3);
+}
+
+.misc-webclones .section-title {
+  color: var(--alt-five);
+}
+
+.misc-webclones .project-button {
+  border-color: var(--alt-five);
+  box-shadow: 0 0 8px rgba(255, 227, 224, 0.3);
+}
+
+.misc-webclones .project-button:hover {
+  background-color: var(--alt-five);
+  border-color: var(--alt-five);
+  box-shadow: 0 4px 12px rgba(255, 227, 224, 0.4),
+    0 0 16px rgba(255, 227, 224, 0.3);
+}
+
+.contact .section-title {
+  color: var(--main-text-light);
+}
+
+.contact .project-button {
+  border-color: var(--main-text-light);
+  box-shadow: 0 0 8px rgba(247, 247, 247, 0.2);
+}
+
+.contact .project-button:hover {
+  background-color: var(--main-text-light);
+  border-color: var(--main-text-light);
+  box-shadow: 0 4px 12px rgba(247, 247, 247, 0.3),
+    0 0 16px rgba(247, 247, 247, 0.2);
 }
 
 .coding-music .section-title {

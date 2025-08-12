@@ -3,43 +3,12 @@ import "../styles/ProjectList.css";
 function ProjectList() {
   return (
     <div className="project-list">
-      {/* DEVELOPER RESOURCES Section */}
-      <section className="project-section dev-resources">
-        <h2 className="section-title">DEVELOPER RESOURCES</h2>
-        <div className="button-grid">
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            VSCODE SHORTCUTS CHEATSHEET
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            Thematic Palette Picker Tool
-          </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            CYBER.CSS
-          </a>
-        </div>
-      </section>
-
       {/* PERSONAL PORTFOLIO Section */}
       <section className="project-section personal-portfolio">
         <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
         <div className="button-grid">
           <a
-            href="#"
+            href="https://atlis-portfolio.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -47,12 +16,43 @@ function ProjectList() {
             ATLIS WEBSITE
           </a>
           <a
-            href="#"
+            href="https://standardresume.co/r/deuFz-PeFdit0VJZ3rQ1Q"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
           >
             Current CV / Resume
+          </a>
+        </div>
+      </section>
+
+      {/* DEVELOPER RESOURCES Section */}
+      <section className="project-section dev-resources">
+        <h2 className="section-title">DEVELOPER RESOURCES</h2>
+        <div className="button-grid">
+          <a
+            href="https://vscode-shortcuts-cheatsheet.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            VSCODE SHORTCUTS CHEATSHEET
+          </a>
+          <a
+            href="https://colour-palette-tool.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            Curated Web Themes // Palette tool
+          </a>
+          <a
+            href="https://cyber-css-v1.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            CYBER.CSS
           </a>
         </div>
       </section>
@@ -88,12 +88,12 @@ function ProjectList() {
         </div>
       </section>
 
-      {/* MISC & WEBCLONES Section */}
+      {/* MISCELLANEOUS & WEBCLONES Section */}
       <section className="project-section misc-webclones">
-        <h2 className="section-title">MISC & WEBCLONES</h2>
+        <h2 className="section-title">MISCELLANEOUS & WEBCLONES</h2>
         <div className="button-grid">
           <a
-            href="#"
+            href="https://gym-app-react-atlisky.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -101,7 +101,7 @@ function ProjectList() {
             WORKOUT PLANNER
           </a>
           <a
-            href="#"
+            href="https://inspected-clone-2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -109,7 +109,7 @@ function ProjectList() {
             INSPECTED
           </a>
           <a
-            href="#"
+            href="https://ableton-react-clone.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -117,7 +117,7 @@ function ProjectList() {
             ABLETON
           </a>
           <a
-            href="#"
+            href="https://amazon-javascript-multipage.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -132,7 +132,7 @@ function ProjectList() {
         <h2 className="section-title">CONTACT</h2>
         <div className="button-grid">
           <a
-            href="#"
+            href="https://github.com/Atlis-Ky"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
@@ -140,19 +140,14 @@ function ProjectList() {
             GITHUB
           </a>
           <a
-            href="#"
+            href="https://www.linkedin.com/in/kyle-smith-2905282b6/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
           >
             LINKEDIN
           </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
+          <a href="mailto:kylesmith97@outlook.com" className="project-button">
             EMAIL
           </a>
         </div>
