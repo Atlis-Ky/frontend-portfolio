@@ -29,6 +29,33 @@
   margin-bottom: 0.5rem;
 }
 
+/* Technology bar styling */
+.tech-bar {
+  font-family: "Special Gothic Expanded One", Arial, sans-serif;
+  font-size: 0.75rem;
+  color: var(--main-text-light);
+  opacity: 0.8;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1rem;
+}
+
+.tech-item {
+  color: var(--main-text-light);
+}
+
+.tech-separator {
+  color: var(--main-accent);
+}
+
 /* Utility classes */
 .text-center {
   text-align: center;
