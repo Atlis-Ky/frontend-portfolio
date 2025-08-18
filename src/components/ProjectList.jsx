@@ -7,8 +7,8 @@ function ProjectList() {
       <section className="project-section personal-portfolio">
         <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
         <h4 className="section-subtitle">
-          For a more detailed look at my background, skills, and the technologies
-          I use, check my CV or my dual purpose frontend/audio site
+          For a more detailed look at my background, skills, and the
+          technologies I use, check my CV or my dual purpose frontend/audio site
         </h4>
         <div className="button-grid">
           <a
@@ -17,7 +17,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-           Kyle Smith CV / Resume
+            Kyle Smith CV / Resume
           </a>
           <a
             href="https://atlis-portfolio.vercel.app/"
@@ -25,7 +25,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            ATLIS WEBSITE
+            ATLIS WEBSITE (personal web dev & music site)
           </a>
         </div>
       </section>
@@ -82,6 +82,14 @@ function ProjectList() {
             WORKOUT PLANNER
           </a>
           <a
+            href="https://fullstack-todo-app-atlisky.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            Fullstack ToDo w/ token auth
+          </a>
+          <a
             href="https://inspected-clone-2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
@@ -105,14 +113,7 @@ function ProjectList() {
           >
             AMAZON W/ BASKET
           </a>
-          <a
-            href="#"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            TODO APP W/ Authentication (FULLSTACK)
-          </a>
+
           <a
             href="https://react-pokedex-atlisky.netlify.app/"
             target="_blank"
