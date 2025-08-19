@@ -134,7 +134,7 @@ function ProjectList() {
         </h4>
         <div className="button-grid">
           <a
-            href="#"
+            href="https://open.spotify.com/artist/0rPg5GzRyLsiWkNcRSEXUU?si=AnDtCjGWRyGlLTzqrPLqsQ"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
