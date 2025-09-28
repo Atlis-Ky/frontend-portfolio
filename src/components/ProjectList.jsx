@@ -12,7 +12,7 @@ function ProjectList() {
         </h4>
         <div className="button-grid">
           <a
-            href="https://standardresume.co/r/deuFz-PeFdit0VJZ3rQ1Q"
+            href="https://standardresume.co/r/WBBZfPWtA6SI6rrTlOHUg"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
