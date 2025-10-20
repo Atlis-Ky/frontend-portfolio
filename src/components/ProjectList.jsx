@@ -62,6 +62,18 @@ function ProjectList() {
           >
             CYBER.CSS
           </a>
+
+          {/* pending dev certificcate to let users download desktop radio i think, have to fork out 100 to apple for it -.- */}
+
+
+          {/* <a
+            href="https://sleep-lofi-radio-desktop.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            Lofi Sleep Desktop Radio
+          </a> */}
         </div>
       </section>
 
