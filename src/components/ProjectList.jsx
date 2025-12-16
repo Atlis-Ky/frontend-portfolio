@@ -8,7 +8,7 @@ function ProjectList() {
         <h2 className="section-title">PERSONAL PORTFOLIO & Resume</h2>
         <h4 className="section-subtitle">
           For a more detailed look at my background, skills, and the
-          technologies I use, check my CV or my dual purpose frontend/audio site
+          technologies I use, check my CV or my full stack fully functional web clone of the Inspected web store.
         </h4>
         <div className="button-grid">
           <a
@@ -20,12 +20,12 @@ function ProjectList() {
             Kyle Smith CV / Resume
           </a>
           <a
-            href="https://atlis-portfolio.vercel.app/"
+            href="https://inspected-clone-2.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
           >
-            ATLIS WEBSITE (personal web dev & music site)
+            Full Stack E-Commerce Web Store (Inspected)
           </a>
         </div>
       </section>
@@ -99,12 +99,12 @@ function ProjectList() {
             Fullstack ToDo w/ token auth
           </a>
           <a
-            href="https://inspected-clone-2.netlify.app/"
+            href="https://atlis-portfolio.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="project-button"
           >
-            INSPECTED
+            Atlis (Music Discog + Frontend showcase)
           </a>
           <a
             href="https://ableton-react-clone.vercel.app/"
@@ -112,7 +112,7 @@ function ProjectList() {
             rel="noopener noreferrer"
             className="project-button"
           >
-            ABLETON
+            ABLETON (design clone)
           </a>
           <a
             href="https://amazon-javascript-multipage.netlify.app/"
