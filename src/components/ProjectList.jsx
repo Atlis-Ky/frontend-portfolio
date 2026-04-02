@@ -27,6 +27,14 @@ function ProjectList() {
           >
             Full Stack E-Commerce Web Store (Inspected)
           </a>
+          <a
+            href="https://atlisweb.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-button"
+          >
+            Atlis Discography
+          </a>
         </div>
       </section>
 
@@ -97,14 +105,6 @@ function ProjectList() {
             className="project-button"
           >
             Fullstack ToDo w/ token auth
-          </a>
-          <a
-            href="https://atlis-portfolio.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="project-button"
-          >
-            Atlis (Music Discog + Frontend showcase)
           </a>
           <a
             href="https://ableton-react-clone.vercel.app/"
